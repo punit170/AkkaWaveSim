@@ -1,0 +1,22 @@
+Nodes:
+	Modified: [14]
+	Removed: [45, 8]
+	Added:
+		34: 53
+		24: 52
+		6: 51
+Edges:
+	Modified:
+		39: 7
+	Added:
+		34: 53
+		23: 49
+		24: 52
+		39: 7
+		6: 51
+	Removed:
+		7: 45
+		45: 20
+		39: 7
+		16: 8
+		8: 22
