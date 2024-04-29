@@ -42,5 +42,18 @@ lazy val root = (project in file("."))
       "org.typelevel" %% "cats-core" % catsVersion,
       "commons-io" % "commons-io" % apacheCommonsVersion,
       "org.jgrapht" % "jgrapht-core" % jGraphTlibVersion,
-      "org.jgrapht" % "jgrapht-guava" % guavaAdapter2jGraphtVersion)
+      "org.jgrapht" % "jgrapht-guava" % guavaAdapter2jGraphtVersion )
   )
+Global / excludeLintKeys += idePackagePrefix
+Global / excludeLintKeys += test / fork
+Global / excludeLintKeys += run / mainClass
+
+scalacOptions ++= Seq(
+  "-deprecation", // emit warning and location for usages of deprecated APIs
+  "-feature" // emit warning and location for usages of features that should be imported explicitly
+)
+compileOrder := CompileOrder.JavaThenScala
+test / fork := true
+run / fork := true
+
+connectInput in run := true
