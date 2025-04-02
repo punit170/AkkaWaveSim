@@ -12,6 +12,8 @@ A versatile simulator for distributed [wave algorithms](https://www.geeksforgeek
 
 AkkaWaveSim is a powerful tool for simulating various wave algorithms in distributed computing environments. Designed for strongly connected networks, it implements a range of algorithms including Tarry's, DFS-Wave, Optimized-DFS Wave, Awerbuch's, Cidon's, Tree, and Echo Wave Algorithms. Utilizing the Akka Typed framework and the Actor model, AkkaWaveSim facilitates decentralized, message-driven simulations, providing an insightful exploration into distributed systems.
 
+![a graphic image depicting a connected distributed network of nodes](./project-akka-graphic-img.png)
+
 </div>
 
 ---
